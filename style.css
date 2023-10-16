@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: font-family: 'Gabarito', cursive;
+  background-image: linear-gradient(to left, #4988BF, #73BF26, #F2CB57, #F24444);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: 100hv;
+}
+
+img {
+  width: 150px;
+  border-radius: 100px;
+  border: 2px solid #F24444;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.433);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+input {
+  background-color: #F24444;
+  color: white;
+  border: 1px solid #F24444;
+  border-radius: 20px;
+  padding: 10px;
+  width: 500px;
+}
+
+input:hover {
+  background-color: #73BF26;
+  color: #651d1d;
+  border: 1px solid #73BF26;
+}
+
+@media (max-width:700px) {
+  input {
+    width: 300px;
+  }
+
+  .div {
+    top: 56%;
+  }
+}
